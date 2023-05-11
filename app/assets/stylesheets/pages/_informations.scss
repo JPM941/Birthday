@@ -1,0 +1,48 @@
+.lieu {
+  text-align: left;
+  margin-top: 2vh;
+}
+
+.thème {
+  text-align: right;
+  margin-top: 2vh;
+}
+
+.divers {
+  text-align: left;
+  margin-top: 2vh;
+}
+
+h2 {
+  color: #06283D;
+  font-family: 'Dancing Script', cursive;
+  margin: 0.5vh;
+  padding: 1vh;
+  font-size: 4vh;
+}
+
+
+.lieu p {
+  font-size: 3vh;
+  color: #19A7CE;
+}
+
+.thème p {
+  font-size: 3vh;
+  color: #19A7CE;
+}
+
+.divers p {
+  font-size: 3vh;
+  color: #19A7CE;
+}
+
+.sun {
+  background-image:url("https://res.cloudinary.com/dvedgufo1/image/upload/v1683812559/pngwing.com_ka9nj7.png");
+  height: 25vh;
+  width: 25vh;
+  background-size: cover;
+  position: absolute;
+  top: -11vh;
+  left: -11vh;
+}

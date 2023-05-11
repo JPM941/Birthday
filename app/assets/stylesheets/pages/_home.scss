@@ -1,1 +1,29 @@
 // Specific CSS for your home-page
+.home {
+  height: 100vh;
+  background-color:aquamarine;
+  background-size: cover;
+}
+
+.leter {
+  height: 20vh;
+  width: 30vh;
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/dvedgufo1/image/upload/v1681828971/closed_leter_ytb5sl.jpg");
+  text-align: center;
+  position:relative;
+  margin: auto;
+  top: 30vh;
+  &:hover {
+    height: 25vh;
+    width: 37vh;
+    transition-duration: 300ms;
+    &:active {
+      transition-duration: 300ms;
+      top: 26vh;
+      height: 30vh;
+      width: 37vh;
+      background-image: url("https://res.cloudinary.com/dvedgufo1/image/upload/v1681828971/open_leter_xiy8ba.png");
+    }
+  }
+}
