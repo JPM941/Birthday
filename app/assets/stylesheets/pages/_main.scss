@@ -1,6 +1,8 @@
 .main {
   height: 00vh;
   background-color: #EEE9DA;
+  overflow-x: unset;
+  overflow-y: unset;
   }
 
 h1 {
@@ -33,4 +35,8 @@ h1 {
     width: 13vh;
     transition-duration: 300ms;
   }
+}
+
+html, body {
+  margin: 0; height: 100%; overflow: hidden
 }
