@@ -13,6 +13,9 @@
   margin-top: 2vh;
 }
 
+.inscription {
+  text-align: center;
+}
 h2 {
   color: #06283D;
   font-family: 'Dancing Script', cursive;
@@ -89,3 +92,20 @@ h2 {
     transform: translate3d(0,5px,0);
   }
 }
+
+.form p {
+  font-size: 3vh;
+  color: #19A7CE;
+  font-family: 'Dancing Script', cursive;
+}
+
+.suivant {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.bienvenue h1 {
+  color: #19A7CE;
+  font-family: 'Dancing Script', cursive;
+}
+

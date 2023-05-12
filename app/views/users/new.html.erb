@@ -1,0 +1,13 @@
+<h1>Inscription</h1>
+<div class="form"><p>Rentrez votre prénom et cliquez sur "valider" pour vous incrire. Répétez l'opération pour chacune des personnes que vous voulez inscrire. Une fois terminé cliquez sur "suivant".</p>
+</div>
+<div class="formulaire"><%= simple_form_for (@user) do |f| %>
+  <%= f.input :name %>
+  <%= f.submit "valider", class: "btn-primary" %>
+<% end %>
+</div>
+<%= link_to "<div class='suivant'><h2>Suivant</h2></div>".html_safe, howmany_path %>
+<div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div>
