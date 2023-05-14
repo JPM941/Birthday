@@ -100,8 +100,15 @@ h2 {
 }
 
 .suivant {
+  color: #19A7CE;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
   margin-top: 10vh;
+  border: none;
+  padding: 4vh 8vh; /* Increase the padding for a larger button */
+  font-size: 4vh;
+  background-color: #F4F4F4;
+  text-decoration:underline;
 }
 
 .bienvenue h1 {
@@ -109,3 +116,77 @@ h2 {
   font-family: 'Dancing Script', cursive;
 }
 
+.rudder {
+  background-image:url("https://res.cloudinary.com/dvedgufo1/image/upload/v1683906962/pngwing.com_1_uf8ioa.png");
+  height: 45vh;
+  width: 45vh;
+  bottom: -22vh;
+  background-size: cover;
+  position:absolute;
+}
+
+
+.photo h3 {
+  font-family: 'Dancing Script', cursive;
+}
+.photo {
+  color: #19A7CE;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  bottom: -30vh;
+  position: relative;
+}
+.pho {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image:url("https://res.cloudinary.com/dvedgufo1/image/upload/v1683907769/appareil-photo_xuzaw1.png");
+  height: 8vh;
+  width: 8vh;
+  background-size:cover;
+  position: relative;
+}
+
+.bateau {
+  bottom: -35vh;
+  left: 27vh;
+  background-size:cover;
+  background-position: center;
+  position:relative;
+  display:inline-block;
+  background-size:cover;
+  position: relative;
+}
+
+.bat {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image:url("https://res.cloudinary.com/dvedgufo1/image/upload/v1683910103/ferry-boat_vzgcre.png");
+  height: 8vh;
+  width: 8vh;
+
+}
+
+.beach {
+  background-image:url("https://res.cloudinary.com/dvedgufo1/image/upload/v1683910103/ete_pfkwsl.png");
+  height: 8vh;
+  width: 8vh;
+  right: -1vh;
+  bottom: -35vh;
+  background-size:cover;
+  background-position: center;
+  position:relative;
+  display:inline-block
+}
+
+.formulaire {
+  font-family: 'Dancing Script', cursive;
+  color: #06283D;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
