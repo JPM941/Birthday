@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get :informations, to: "pages#informations"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   resources :users
+  resources :pictures
   # Defines the root path route ("/")
   # root "articles#index"
 end

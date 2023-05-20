@@ -1,0 +1,2 @@
+<%@pictures.each do |picture|%>
+<%= cl_image_tag @picture.photo.key, height: 300, width: 400, crop: :fill %>
