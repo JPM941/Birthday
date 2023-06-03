@@ -1,4 +1,4 @@
 <%= simple_form_for(@picture) do |f| %>
-<%= f.input :images, as: :file, input_html: { multiple: true } %>
+<%= f.input :photo, as: :file %>
 <%= f.submit "add image", class: "btn-primary" %>
 <% end %>

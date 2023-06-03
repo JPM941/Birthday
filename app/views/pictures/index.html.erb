@@ -1,2 +1,6 @@
-<%@pictures.each do |picture|%>
-<%= cl_image_tag @picture.photo.key, height: 300, width: 400, crop: :fill %>
+<div class="index">
+  <%@pictures.each do |picture|%>
+  <div class='card-category' style="background-image: url(<%=cl_image_path picture.photo.key%>)">
+  </div>
+  <%end%>
+<div class="index">
