@@ -3,12 +3,13 @@
   <%= link_to "<button class='btn btn-primary' type='button'>Ajouter une photo</button>".html_safe, new_picture_path %>
   </div>
   <% if @pictures %>
-    <% @pictures.each do |picture| %>
-      <% if picture.photo %>
-        <div class='card-categoryy' style="background-image: url(<%= cl_image_path picture.photo.key %>)">
-        </div>
-      <% end %>
+  <% @pictures.each do |picture| %>
+    <% if picture.photo.present? %>
+      <div class='card-categoryy' style="background-image: url(<%= cl_image_path picture.photo.key %>)">
+        <!-- Rest of your code -->
+      </div>
     <% end %>
   <% end %>
+<% end %>
 
 </div>
